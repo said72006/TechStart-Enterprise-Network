@@ -15,7 +15,7 @@ The TechStart network includes:
 - Dedicated Server Room
 - DNS Server
 - Web Server
-- FTP Server
+- FTP Server (lab-only; FTP is unencrypted)
 
 Each department has its own LAN, router, switch, and client devices.
 
@@ -87,7 +87,9 @@ A dedicated web server hosts a customized internal TechStart company webpage.
 
 ### FTP
 
-A dedicated FTP server provides authenticated file transfer services.
+A dedicated FTP server provides authenticated file transfer services in the Packet Tracer lab.
+
+**Security note:** Traditional FTP transmits credentials and data without encryption. This service is for simulation only. For real networks, prefer **SFTP (SSH)** or an appropriately secured file-transfer service.
 
 > Authentication credentials used in the lab environment are intentionally not included in this README.
 
